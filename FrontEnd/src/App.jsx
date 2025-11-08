@@ -1,16 +1,18 @@
-import './App.css'
-import Footer from './components/common/Footer'
-import Navigation from './components/Navigation'
-
+import "./App.css";
+import { Route,Routes } from "react-router";
+import Layout from "./utils/layout";
+import Home from "./pages/client/Home/Home";
 function App() {
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+        <Route index element= {<Home />} />
 
-
- return (
-   <>
-  <Navigation />
-  <Footer />
+        </Route>
+      </Routes>
     </>
- )
+  );
 }
 
-export default App
+export default App;
