@@ -1,13 +1,12 @@
 import './App.css'
-import Btn from './components/common/UI/Btn'
+import Navigation from './components/Navigation'
 
 function App() {
 
 
  return (
    <>
-  <Btn variant="danger">Hello
-  </Btn>
+  <Navigation />
     </>
  )
 }

@@ -10,7 +10,8 @@ const Btn = ({
   className,
   type = "button",
   disabled,
-  variant = "primary" | "secondary" | "outline" | "danger" | "success",
+  variant = "",
+  ...props
 }) => {
   //style varients
   const variants = {
@@ -66,6 +67,7 @@ const Btn = ({
       whileTap={{ scale: disabled ? 1 : 0.95 }}
       className={buttonClass}
       type={type}
+      {...props}
     >
       {/* Button Text */}
       <span className={textClass}>{children}</span>
