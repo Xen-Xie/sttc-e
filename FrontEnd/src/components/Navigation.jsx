@@ -158,7 +158,9 @@ function Navigation() {
             className="font-inter text-sm font-medium px-4 py-2"
             variant="primary"
           >
-            Sign in
+          <Link to="/sign-in">
+                  Sign in
+                </Link>
           </Btn>
 
           <Tooltip
@@ -216,7 +218,9 @@ function Navigation() {
                 className="font-inter text-sm font-medium px-4 py-2"
                 variant="primary"
               >
-                Sign in
+                <Link to="/sign-in">
+                  Sign in
+                </Link>
               </Btn>
             </div>
           </motion.div>
