@@ -13,4 +13,5 @@
  --color-bordered: #E5E5E5;
  --font-urbanist: 'Urbanist', sans-serif;
  --font-inter: 'Inter', sans-serif;
+--breakpoint-xs: 360px;
 }
