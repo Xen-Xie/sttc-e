@@ -1,11 +1,11 @@
-import React from 'react'
+import Hero from "./Hero";
 
 function Home() {
   return (
-    <div>
-      <h1 className='text-3xl font-bold underline'>Home Page</h1>
-    </div>
-  )
+    <>
+      <Hero />
+    </>
+  );
 }
 
-export default Home
+export default Home;
